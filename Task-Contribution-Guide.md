@@ -42,7 +42,7 @@ Those are the only steps necessary to use your task. Now you can start up Elite,
 
 ## (Optional) Step 5 - Elite shortcut
 
-This optional step can make your task a little easier to use withiin Elite. You may be used to certain tasks within Elite that can be used directly from a Grunt's menu, without using `Task <task_name>`, explicitly defining parameters, and manually starting the task. You can optionally define a "shortcut" from the Grunt menu to launch tasks quickly. This step should be reserved for commonly used or essential tasks, and is not necessary for the majority of tasks.
+This optional step can make your task a little easier to use within Elite. You may be used to certain tasks within Elite that can be used directly from a Grunt's menu, without using `Task <task_name>`, explicitly defining parameters, and manually starting the task. You can optionally define a "shortcut" from the Grunt menu to launch tasks quickly. This step should be reserved for commonly used or essential tasks, and is not necessary for the majority of tasks.
 
 To do this, you need to define a class that inherits from the `MenuCommand` class within the `Elite/Elite/Menu/Grunts/InteractGruntMenuItem.cs` file. There are several examples in this file to use as references. You need to create a class that parses parameters passed on the command line and programmatically navigates to the `Task` menu and starts the task.
 
