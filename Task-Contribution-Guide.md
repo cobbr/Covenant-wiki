@@ -6,7 +6,7 @@ Contributing Tasks to Covenant is fairly simple, thought not quite as simple as 
 
 Does your new task require a lot of code and/or is fairly complex?
 
-If so, this may slightly change the way you contribute to Covenant. If your task does not fit well into a single source file, then consider adding your task as a `git` submodule to Covenant. Submodules are found under the `Covenant/Covenant/Data/Tasks/src` folder.
+If so, this may change the way you contribute to Covenant. If your task does not fit well into a single source file, then consider adding your task as a `git` submodule to Covenant. Submodules are found under the `Covenant/Covenant/Data/Tasks/src` folder.
 
 If your task does not fit in a single source file and you do not have another git project to add as a submodule or don't want to deal with the headache of adding git submodules, please consider contributing to [SharpSploit](https://github.com/cobbr/SharpSploit)! `SharpSploit` is a library of C# post-exploitation functions. If your task fits well within the SharpSploit project, this is a great way to contribute your task/library to Covenant. For example, we'll take a Pull Request from Dennis Panagiotopoulos ([@den_n1s](https://twitter.com/den_n1s)) that added a COM hijacking persitence module:
 
@@ -36,17 +36,7 @@ Again, we'll take the COM hijacking persistance task as an example:
 
 ## Step 4 - Use your task!
 
-Those are the only steps necessary to use your task. Now you can start up Elite, and assign your task to active Grunts.
-
-![Use Task Example](https://github.com/cobbr/Covenant/wiki/images/use-task-example.png)
-
-## (Optional) Step 5 - Elite shortcut
-
-This optional step can make your task a little easier to use within Elite. You may be used to certain tasks within Elite that can be used directly from a Grunt's menu, without using `Task <task_name>`, explicitly defining parameters, and manually starting the task. You can optionally define a "shortcut" from the Grunt menu to launch tasks quickly. This step should be reserved for commonly used or essential tasks, and is not necessary for the majority of tasks.
-
-To do this, you need to define a class that inherits from the `MenuCommand` class within the `Elite/Elite/Menu/Grunts/InteractGruntMenuItem.cs` file. There are several examples in this file to use as references. You need to create a class that parses parameters passed on the command line and programmatically navigates to the `Task` menu and starts the task.
-
-Once this class is defined, you will need to add an instance of this class to the list with the `GruntInteractMenuItem` constructor at the very bottom of the file.
+Those are the only steps necessary to use your task. Now you can start up Covenant, and assign your task to active Grunts.
 
 # Wanted Tasks
 
