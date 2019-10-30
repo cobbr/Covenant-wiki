@@ -12,7 +12,7 @@ Covenant is a .NET command and control framework and web application that aims t
 8. [Graph View](https://github.com/cobbr/Covenant/wiki/Graph-View)
 9. [Data](https://github.com/cobbr/Covenant/wiki/Data)
 10. [Task Contribution Guide](https://github.com/cobbr/Covenant/wiki/Task-Contribution-Guide)
-11. [C2Bridges](https://github.com/cobb/Covenant/wiki/C2Bridges)
+11. [C2Bridges](https://github.com/cobbr/Covenant/wiki/C2Bridges)
 12. [Bridge Listeners](https://github.com/cobbr/Covenant/wiki/Bridge-Listeners)
 13. [Using the API](https://github.com/cobbr/Covenant/wiki/Using-The-API)
 
