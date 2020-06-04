@@ -4,9 +4,9 @@ Be sure to clone Covenant recursively to initialize the git submodules: `git clo
 
 ### Option 1 - Dotnet Core
 
-The easiest way to use Covenant is by installing dotnet core. You can download dotnet core for your platform from [here](https://dotnet.microsoft.com/download/dotnet-core/2.2).
+The easiest way to use Covenant is by installing dotnet core. You can download dotnet core for your platform from [here](https://dotnet.microsoft.com/download/dotnet-core/3.1).
 
-Be sure to install the **dotnet core version 2.2 SDK**! Covenant does not yet support dotnet core 3.0, and the SDK is necessary to build the project (not just the runtime).
+Be sure to install the dotnet core version **3.1 SDK**!
 
 Once you have installed dotnet core, we can build and run Covenant using the dotnet CLI:
 
