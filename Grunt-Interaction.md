@@ -6,7 +6,13 @@ Click on the Grunt navigation page to see a list of active grunts:
 
 ![Grunts Table](https://github.com/cobbr/Covenant/wiki/images/covenant-gui-grunts.png)
 
-Click on a Grunt you would like to interact with, and this will bring you to a detailed page with all of the grunt's information:
+You can interact with Grunts through either the tabbed terminal view or in the detailed, full-screen interaction view.
+
+For the tabbed terminal view, click the small terminal icon next to the entry in the Grunt table to activate a Grunt into the tabbed terminal view below. This view makes it easy to operate when quickly switching between multiple implants.
+
+![Tabbed Terminal](https://github.com/cobbr/Covenant/wiki/images/covenant-gui-grunts-tabbed.png)
+
+For the detailed interaction view, click on the name of the Grunt you would like to interact with, and this will bring you to a detailed page with all of the grunt's information:
 
 ![Grunt Info](https://github.com/cobbr/Covenant/wiki/images/covenant-gui-gruntinfo.png)
 

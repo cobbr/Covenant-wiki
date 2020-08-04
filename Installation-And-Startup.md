@@ -13,8 +13,11 @@ Once you have installed dotnet core, we can build and run Covenant using the dot
 ```
 $ ~ > git clone --recurse-submodules https://github.com/cobbr/Covenant
 $ ~ > cd Covenant/Covenant
-$ ~/Covenant/Covenant > dotnet build
 $ ~/Covenant/Covenant > dotnet run
+warn: Microsoft.EntityFrameworkCore.Model.Validation[10400]
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development.
+WARNING: Running Covenant non-elevated. You may not have permission to start Listeners on low-numbered ports. Consider running Covenant elevated.
+Covenant has started! Navigate to https://127.0.0.1:7443 in a browser
 ```
 
 ### Option 2 - Docker
